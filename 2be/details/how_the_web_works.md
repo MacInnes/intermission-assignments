@@ -15,35 +15,51 @@ Review the materials below.
 Now we have a better grasp about the internet, and how some of the things are working. Now, let's answer a few questions to check our understanding. Don't be afraid to do additional research (googleing) for an answer. Fork this gist and answer the following questions:
 
 1. Describe, step by step, what happens when I type `www.example.com` into my browser and try to go to the page?
+  First the browser tries to lookup the IP address if it has it, then checks the OS for the IP address, if neither of them have it a DNS lookup
+  is performed online.  The DNS server returns the IP address of the website, then the browser sends a get request to the IP address.
 1.  What does HTTP stand for?
+  Hyper Text Transfer Protocol
 1. 	What protocol does the World Wide Web use?
+  HTTP
 1. 	Each computer on the Internet is assigned an IP address, what does IP stand for?
+  Internet Protocol
 1. 	What does DNS stand for?
+  A
   * A. Domain Name System
   * B. Digital Number System
   * C. Domain Number System
   * D. Domain Name Service
   * E. Digital Name Service
 1. 	How are text domain names matched to their respective numeric IP addresses.
+  Through a DNS lookup, performed by a DNS server.
 1. 	What is the client?
+  C (although the entire computer could be considered the client)
   * A. A purchaser
   * B. Internet shopping customer (Consumer)
   * C. The software which requests information from a server (browser)
   * D. The server to which a particular computer sends data
   * E. The computer which the IP address belongs to
 1. 	What does URL stand for?
+  Uniform Resource Locator
 1. 	What are protocols
+  D
  * A. The standardisation of IP addressess
  * B. The DNS standard method for data transfer
  * C.	The standardised network address system
  * D.	The standardised method for transferring data or documents over a network
  * E.	The standardised method for prioratising data or document storage over a network
 1. What does DNS stand for?
+  Domain Name Service
 1. what is the `www` portion of a url?
+  Subdomain
 1. What is The markup language used for all web documents?
+  Hypertext Markup Language
 1. What is the organization that monitors web technologies?
+  W3C
 1. What is the Protocol for transferring web documents on the Internet?
+  HTTP
 1. What matches the domain names with numeric IP addresses?
+  DNS
 
 
 
